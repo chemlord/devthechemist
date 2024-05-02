@@ -20,7 +20,7 @@ location: Trent University, Chemical Sciences Building, CHUGS Table
 math: true
 publishDate: "2024-01-01T00:00:00Z"
 slides: example
-summary: An example talk using Wowchemy's Markdown slides feature.
+summary: Courtesy of CHUGS
 tags: []
 title: Advanced Synthetic Organic Chemistry Bio Tutoring
 url_code: ""
