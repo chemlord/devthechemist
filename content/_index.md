@@ -24,8 +24,8 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: 'Hey There! 👋'
-      subtitle: 'Welcome to my personal site'
+      title: 'Hey There!'
+      subtitle: 'Welcome to my personal site 👋'
       text: |-
         I'm a Biochemistry and Molecular Biology student at Trent University. My passions include Organic Chemistry, namely, Carbonyl chemistry.
 

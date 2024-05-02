@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dev Bagchi
+title: **Dev Bagchi**
 
 # Is this the primary user of the site?
 superuser: true
@@ -10,7 +10,7 @@ role: Biochemistry/Molecular Bio Student
 
 # Organizations/Affiliations
 organizations:
-- name: Trent University
+- name: **Trent University**
   url: "https://www.trentu.ca/"
 
 # Short bio (displayed in user profile at end of posts)
