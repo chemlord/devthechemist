@@ -8,7 +8,7 @@
 appearance:
   theme_day: custom
   theme_night:
-  font: rose
+  font: Radio_Canada_Big
   font_size: L
 
 # SEO
