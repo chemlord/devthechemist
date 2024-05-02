@@ -1,5 +1,5 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.
+abstract: Oxidation Reactions can be overwhelming and difficult at the start. Therefore, we will cover PCC, PDC, Jones and Swern Oxidation Reactions in-depth.
 address:
   city: Peterbourough
   country: Canada
@@ -22,7 +22,7 @@ publishDate: "2024-01-01T00:00:00Z"
 slides: example
 summary: An example talk using Wowchemy's Markdown slides feature.
 tags: []
-title: Example Talk
+title: Advanced Synthetic Organic Chemistry Bio Tutoring
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -30,7 +30,7 @@ url_video: ""
 ---
 
 {{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
+Bring a Whiteboard, Whiteboard Marker and/or Pen, Paper, Etc.
 {{% /callout %}}
 
 Slides can be added in a few ways:

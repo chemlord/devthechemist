@@ -4,7 +4,7 @@ type: landing
 date: 2024-10-25
 
 sections:
-  - block: About Me
+  - block: aboutme
     content:
       title: About Me
       subtitle:
