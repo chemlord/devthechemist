@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2024-05-02
 type: landing
 
 sections:
@@ -16,7 +16,7 @@ sections:
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: li-yang-5h_dMuX_7RE-unsplash.webp
+          filename: header_undergrad-chemistry-lab-csb.webp
           filters:
             brightness: 0.5
           size: cover
@@ -24,10 +24,10 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: 'Welcome 👋'
-      subtitle: ''
+      title: 'Hey There! 👋'
+      subtitle: 'Welcome to my personal blog'
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm a Biochemistry and Molecular Biology student at Trent University. My passions include Organic Chemistry, namely, Carbonyl chemistry.
 
         **Specialties:** Analytics & Data, Leadership, Programming, Strategic Planning, Writing & Editing
     design:
