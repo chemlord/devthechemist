@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Dev Bagchi
+title: Devraj Bagchi
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Biochemistry/Molecular Bio Student
+role: Biochemistry|Molecular Biology Student
 
 # Organizations/Affiliations
 organizations:
@@ -14,7 +14,7 @@ organizations:
   url: "https://www.trentu.ca/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Organic Chemistry
+bio: Biochemistry and Molecular Biology Honours student at Trent University. Focused on Synthetic Organic Chemistry, especially Carbonyl chemistry. Skilled in TLC, FT-IR, ¹H NMR, GC-MS, HPLC, among others. Also enjoys front-end development and UI design as a hobby. Passionate about bridging the gap between theoretical chemistry and practical applications.
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -23,7 +23,7 @@ bio: My research interests include Organic Chemistry
 social:
 - icon: envelope
   icon_pack: fas
-  link: "devthechemist@gmail.com"  # For a direct email link, use "mailto:test@example.org".
+  link: /contact  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen

@@ -9,7 +9,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-                Feel free to contact me regarding personal or academic inquiries!
+        Feel free to contact me regarding personal or academic inquiries!
       # Contact (add or remove contact options as necessary)
       email: devthechemist@gmail.com
       email: devrajbagchi@trentu.ca
@@ -19,8 +19,8 @@ sections:
         city: Peterbourough
         region: ON
         postcode: 'K9J 7B8'
-        country: Canada
-        country_code: ca
+        country:
+        country_code:
       directions: https://www.classfind.com/trent/room/CSBD101
       office_hours:
         - 'TBA'

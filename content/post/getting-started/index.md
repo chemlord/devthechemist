@@ -1,18 +1,18 @@
 ---
-title: Welcome to Wowchemy, the website builder for Hugo
-subtitle: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+title: Building my Portfolio Website using Hugo
+subtitle: Web Development can be a pain, so I'm gonna teach you how I did it so you don't have to experience it!
 
 # Summary for listings and search engines
-summary: Welcome 👋 We know that first impressions are important, so we've populated your new site with some initial content to help you get familiar with everything in no time.
+summary: Web Development with Hugo
 
 # Link this post with a project
 projects: []
 
 # Date published
-date: "2020-12-13T00:00:00Z"
+date: "2024-05-03T14:00:00Z"
 
 # Date updated
-lastmod: "2020-12-13T00:00:00Z"
+lastmod: "2024-05-13T10:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
@@ -23,54 +23,52 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: ''
   focal_point: ""
   placement: 2
   preview_only: false
 
 authors:
 - admin
-- 美杨
 
 tags:
 - Academic
-- 开源
+- Personal
 
 categories:
-- Demo
-- 教程
+- Web Development
+- HTML
+- CSS
 ---
 
-## Overview
+## Why I decided to go into Web Development?
 
-1. The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+As a Biochemistry and Molecular Biology Honors student at Trent University, specializing in Synthetic Organic Chemistry, I recognized the necessity of a strong digital presence to amplify my future endeavors. This realization spurred my interest in web development. Learning front-end development and UI design has allowed me to create an online portfolio that not only showcases my academic and research achievements but also connects me with peers, collaborators, and industry leaders. Through web development, I've crafted a platform where my collaborations, contributions, interests and skills and can be shared with the general public, students and academicians. This endeavor is not just about visibility but about actively shaping how my professional identity is perceived and interacted with in the scientific community.
 
-{{< figure src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png" title="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
+## Criteria for a Good Site: What makes it stand out?
 
-## Get Started
+When developing a website, it's crucial to prioritize functionality and user experience. Here are the top criteria to ensure your site serves its purpose effectively:
 
-- 👉 [**Create a new site**](https://wowchemy.com/hugo-themes/)
-- 📚 [**Personalize your site**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+1. **Ease of Updates**: The site should allow simple and direct updates to keep content current without requiring extensive technical knowledge.
+2. **Easy to Edit and Extensive Support**: The site should be easy to edit and work to avoid unnecessary headache and error. Additionally, support should be available to navigate through problems
+3. **Speed and Stability**: High performance is non-negotiable; the site must load quickly and run smoothly to ensure a positive user experience and prevent downtime.
+4. **Cost-Effectiveness**: Opt for platforms that minimize ongoing costs. Avoid systems with high monthly fees, commission rates, and mandatory renewals that can strain your wallet.
+5. **User Engagement Features**: Incorporate elements such as easy navigation, minimal scrolling, and a direct profile linked to professional and social media to enhance interaction and accessibility.
+6. **Adaptive Design**: Implement a responsive design that includes light/dark mode to accommodate user preferences and improve readability under different lighting conditions.
 
-## Crowd-funded open-source software
+By adhering to these criteria, your website will not only attract but also retain the interest of visitors, providing a valuable tool for showcasing your research and engaging with the academic community.
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+## Why I chose Hugo over Wordpress
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://github.com/sponsors/gcushen)
+I did this because
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/sponsor/) awesome rewards and extra features 🦄✨**
+### How I created my website (with pictures!)
 
-## Ecosystem
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli):** Automatically import publications from BibTeX
+## I'm done: Now what?
 
-## Inspiration
+
+## 📱Socials
 
 [Check out the latest **demo**](https://hugo-blog-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/creators/) of personal, project, and business sites.
 
@@ -97,9 +95,3 @@ As a token of appreciation for sponsoring, you can **unlock [these](https://wowc
 Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
 
 [Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md) license.
