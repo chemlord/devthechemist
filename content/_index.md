@@ -29,7 +29,7 @@ sections:
       text: |-
         I'm Devraj Bagchi (you can call me Dev) and I'm a diligent Biochemistry and Molecular Biology Honours student at Trent University. My academic interests lie deeply in Synthetic Organic Chemistry, specifically Carbonyl chemistry, which I explore both theoretically and through advanced laboratory techniques. My laboratory proficiencies include but are not limited to TLC, FT-IR, ¹H NMR, GC-MS, HPLC, IEC, SEC, and UV-Vis spectroscopy.
 
-        As a hobby, I've also developed skills in front-end web development, learning languages such as Go, HTML, and Python, which I enjoy applying to create and manage my own academic portfolio.
+        As a hobby, I've also developed skills in front-end web development and UI design, learning languages such as Go, HTML, and Python, which I enjoy applying to create and manage my own academic portfolio.
 
         **Specialties:** My laboratory specialties encompass advanced synthetic organic chemistry methods, aseptic technique, biohazard handling, and analytical instrumentation. I possess comprehensive skills in sample analysis and data documentation critical for high-standard research.
 
