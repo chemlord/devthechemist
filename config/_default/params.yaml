@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Devraj Bagchi.'
+    notice: '© {year} Devraj Bagchi'
     license:
       i_am_a_sponsor: true
       enable: true
