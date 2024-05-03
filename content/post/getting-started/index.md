@@ -23,7 +23,7 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: ''
+  caption: 'Menu.yaml file of my config/_default; just one of many files to edit'
   focal_point: ""
   placement: 2
   preview_only: false
@@ -37,13 +37,12 @@ tags:
 
 categories:
 - Web Development
-- HTML
-- CSS
+
 ---
 
-## Why I decided to go into Web Development?
+## Why I decided to go into Web Development as a Hobby?
 
-As a Biochemistry and Molecular Biology Honors student at Trent University, specializing in Synthetic Organic Chemistry, I recognized the necessity of a strong digital presence to amplify my future endeavors. This realization spurred my interest in web development. Learning front-end development and UI design has allowed me to create an online portfolio that not only showcases my academic and research achievements but also connects me with peers, collaborators, and industry leaders. Through web development, I've crafted a platform where my collaborations, contributions, interests and skills and can be shared with the general public, students and academicians. This endeavor is not just about visibility but about actively shaping how my professional identity is perceived and interacted with in the scientific community.
+Over the summmer, I recognized the necessity of a strong digital presence to amplify my future endeavors. This realization sparked my interest in web development. Learning front-end development and UI design has allowed me to create an online portfolio that not only showcases my academic and research achievements but also connects me with peers, collaborators, and industry leaders. Through web development, I've crafted a platform where my collaborations, contributions, interests and skills and can be shared with the general public, students and academicians. This endeavor is not just about visibility but about actively shaping how my professional identity is perceived and interacted with in the scientific community. I am proud of the steps I have taken and the work I have made so far.
 
 ## Criteria for a Good Site: What makes it stand out?
 
@@ -70,28 +69,3 @@ I did this because
 
 ## 📱Socials
 
-[Check out the latest **demo**](https://hugo-blog-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://wowchemy.com/creators/) of personal, project, and business sites.
-
-## Features
-
-- **Page builder** - Create *anything* with [**widgets**](https://wowchemy.com/docs/page-builder/) and [**elements**](https://wowchemy.com/docs/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://wowchemy.com/docs/writing-markdown-latex/), [**Jupyter**](https://wowchemy.com/docs/import/jupyter/), or [**RStudio**](https://wowchemy.com/docs/install-locally/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://wowchemy.com/docs/customization/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 34+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
-
-## Themes
-
-Wowchemy and its templates come with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
-
-[Choose a stunning **theme** and **font**](https://wowchemy.com/docs/customization) for your site. Themes are fully customizable.
