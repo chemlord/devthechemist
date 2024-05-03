@@ -42,8 +42,8 @@ header:
 # Site footer
 
 footer:
+i_am_a_sponsor: true
   copyright:
-    i_am_a_sponsor: true
     notice: '© {year} Devraj Bagchi.'
     license:
       enable: true
