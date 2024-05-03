@@ -27,7 +27,7 @@ sections:
       title: 'Hey There!'
       subtitle: 'Welcome to my personal site 👋'
       text: |-
-        I'm a Biochemistry and Molecular Biology student at Trent University. My passions include Organic Chemistry, namely, Carbonyl chemistry.
+        I'm a Biochemistry and Molecular Biology student at **Trent University**. My passions include Organic Chemistry, namely, Carbonyl chemistry.
 
         **Specialties:** Analytics & Data, Leadership, Programming, Strategic Planning, Writing & Editing
     design:
