@@ -23,11 +23,11 @@ bio: My research interests include Organic Chemistry
 social:
 - icon: envelope
   icon_pack: fas
-  link: devthechemist@gmail.com  # For a direct email link, use "mailto:test@example.org".
+  link: "devthechemist@gmail.com"  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
+- icon: linkedin
   icon_pack: ai
   link: https://www.linkedin.com/in/devbagchi/
 - icon: github
