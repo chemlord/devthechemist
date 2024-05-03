@@ -15,12 +15,12 @@ sections:
       Work Email: devrajbagchi@trentu.ca
       appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
+        street: 1600 West Bank Dr
+        city: Peterbourough
+        region: ON
         postcode: '94305'
-        country: United States
-        country_code: US
+        country: Canada
+        country_code: CAN
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
         - 'Monday 10:00 to 13:00'
