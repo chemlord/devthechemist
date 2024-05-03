@@ -9,7 +9,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Feel free to contact me regarding personal or academic inquiries!
+                Feel free to contact me regarding personal or academic inquiries!
       # Contact (add or remove contact options as necessary)
       email: devthechemist@gmail.com
       email: devrajbagchi@trentu.ca
@@ -20,8 +20,8 @@ sections:
         region: ON
         postcode: 'K9J 7B8'
         country: Canada
-        country_code: CAN
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        country_code: ca
+      directions: https://www.classfind.com/trent/room/CSBD101
       office_hours:
         - 'TBA'
         - 'TBA'
