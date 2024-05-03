@@ -11,8 +11,8 @@ sections:
       text: |-
         Feel free to contact me regarding personal or academic inquiries!
       # Contact (add or remove contact options as necessary)
-      Personal Email: 'devthechemist@gmail.com'
-      Work Email: 'devrajbagchi@trentu.ca'
+      email: devthechemist@gmail.com
+      email: devrajbagchi@trentu.ca
       appointment_url: 'https://calendar.google.com/calendar/u/0/r/week/2024/5/4?pli=1'
       address:
         street: 1600 West Bank Dr
