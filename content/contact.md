@@ -1,7 +1,7 @@
 ---
 title: Contact
 type: landing
-date: 2022-10-25
+date: 2024-05-03
 
 sections:
   - block: contact
@@ -9,31 +9,27 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Feel free to contact me regarding personal or academic inquiries!
       # Contact (add or remove contact options as necessary)
-      Personal Email: devthechemist@gmail.com
-      Work Email: devrajbagchi@trentu.ca
-      appointment_url: 'https://calendly.com'
+      Personal Email: 'devthechemist@gmail.com'
+      Work Email: 'devrajbagchi@trentu.ca'
+      appointment_url: 'https://calendar.google.com/calendar/u/0/r/week/2024/5/4?pli=1'
       address:
         street: 1600 West Bank Dr
         city: Peterbourough
         region: ON
-        postcode: '94305'
+        postcode: 'K9J 7B8'
         country: Canada
         country_code: CAN
       directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        - 'TBA'
+        - 'TBA'
       contact_links:
-        - icon: twitter
+        - icon: linkedin
           icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
+          name: Connect with me!
+          link: 'https://www.linkedin.com/in/devbagchi/'
         - icon: video
           icon_pack: fas
           name: Zoom Me
