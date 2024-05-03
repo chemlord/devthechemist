@@ -28,7 +28,7 @@ social:
   icon_pack: fab
   link: https://twitter.com/GeorgeCushen
 - icon: linkedin
-  icon_pack: ai
+  icon_pack: fab
   link: https://www.linkedin.com/in/devbagchi/
 - icon: github
   icon_pack: fab
