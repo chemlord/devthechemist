@@ -43,13 +43,13 @@ header:
 
 footer:
   copyright:
+    i_am_a_sponsor: true
     notice: '© {year} Devraj Bagchi.'
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
-      i_am_a_sponsor: true
 
 # Localization
 
