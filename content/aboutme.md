@@ -1,24 +1,24 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Devraj Bagchi
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Devraj 
+last_name: Bagchi
 
 # Username (this should match the folder name)
 authors:
-  - 吳恩達
+  - Devraj Bagchi
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Biochemistry and Molecular Biology Major
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Trent University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -27,7 +27,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 interests:
   - Artificial Intelligence
   - Computational Linguistics
-  - Information Retrieval
+  - Information Retrie
 
 education:
   courses:
