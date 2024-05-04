@@ -63,7 +63,7 @@ I did this because...
 
 **Price Comparison:**<br/>
 
-<img src='./getting-started/wppricing.png' width='500'>
+<img src='./assets/media/wppricing.png' width='500'>
 
 ### How I created my website (with pictures!)
 
