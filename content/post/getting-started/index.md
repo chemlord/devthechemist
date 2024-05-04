@@ -42,7 +42,7 @@ categories:
 
 ## Why did I decide to go into Web Development as a Hobby?
 
-Over the summmer, I recognized the necessity of a strong digital presence to amplify my future endeavors. This realization sparked my interest in web development. Learning front-end development and UI design has allowed me to create an online portfolio that not only showcases my academic and research achievements but also connects me with peers, collaborators, and industry leaders. Through web development, I've crafted a platform where my collaborations, contributions, interests and skills and can be shared with the general public, students and academicians. This endeavor is not just about visibility but about actively shaping how my professional identity is perceived and interacted with in the scientific community. I am proud of the steps I have taken and the work I have made so far.
+Over the summer, I recognized the necessity of a strong digital presence to amplify my future endeavors. This realization sparked my interest in web development. Learning front-end development and UI design has allowed me to create an online portfolio that not only showcases my academic and research achievements but also connects me with peers, collaborators, and industry leaders. Through web development, I've crafted a platform where my collaborations, contributions, interests and skills and can be shared with the general public, students and academicians. This endeavor is not just about visibility but about actively shaping how my professional identity is perceived and interacted with in the scientific community. I am proud of the steps I have taken and the work I have made so far.
 
 ## Criteria for a Good Site: What is needed?
 
@@ -60,13 +60,6 @@ By adhering to these criteria, the website will not only attract but also retain
 ## Why I chose Hugo over Wordpress
 
 I did this because...
-
-image:
-  filename: wppricing.png
-  caption: 'Pricing plans of Wordpress'
-  focal_point: ""
-  placement: 2
-  preview_only: false
 
 ### How I created my website (with pictures!)
 

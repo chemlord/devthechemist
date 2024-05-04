@@ -10,7 +10,7 @@ all_day: false
 authors: []
 date: "2024-06-01T13:00:00Z"
 date_end: "2024-06-01T14:00:00Z"
-event: CHUGS CHEM 3110 Tutoring
+event: CHEM 3110 Tutoring
 event_url: https://example.org
 featured: false
 image:
@@ -20,7 +20,7 @@ location: Trent University, Chemical Sciences Building, CHUGS Table
 math: true
 publishDate: "2024-01-01T00:00:00Z"
 slides: example
-summary: Courtesy of CHUGS
+summary: PCC, PDC, Jones and Swern Oxidation Reactions
 tags: []
 title: Advanced Synthetic Organic Chemistry Bio Tutoring
 url_code: ""
@@ -30,7 +30,7 @@ url_video: ""
 ---
 
 {{% callout note %}}
-Bring a Whiteboard, Whiteboard Marker and/or Pen, Paper, Etc.
+Bring a Whiteboard, Whiteboard Marker and/or Pen, Paper
 {{% /callout %}}
 
 Slides can be added in a few ways:

@@ -1,15 +1,18 @@
 ---
-title: About Me
-type: landing
-date: 2024-10-25
+title: An example title
+summary: Here we describe how to add a page to your site.
+date: "2018-06-28T00:00:00Z"
 
-sections:
-  - block: aboutme
-    content:
-      title: About Me
-      subtitle:
-      text: |-
-        This would an about me page
-    design:
-      columns: '1'
+reading_time: false  # Show estimated reading time?
+share: false  # Show social sharing links?
+profile: false  # Show author profile?
+comments: false  # Show comments?
+
+# Optional header image (relative to `assets/media/` folder).
+header:
+  caption: ""
+  image: ""
 ---
+
+Add your *content* here...
+
