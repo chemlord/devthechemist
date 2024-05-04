@@ -31,7 +31,7 @@ sections:
 
         As a hobby, I've also developed skills in front-end web development and UI design, learning languages such as Go, HTML, CSS, and Python, which I enjoy applying to create and manage my own academic portfolio.
 
-        **Specialties:** My Laboratory proficiencies include but are not limited to TLC, FT-IR, ¹H NMR, GC-MS, HPLC, IEC, SEC, and UV-Vis spectroscopy, biohazard handling, aspetic technique.
+        **Specialties:** My Laboratory proficiencies include but are not limited to TLC, FT-IR, ¹H NMR, GC-MS, HPLC, IEC, SEC, and UV-Vis spectroscopy, biohazard handling, aspetic technique, etc.
 
     design:
       columns: '1'
