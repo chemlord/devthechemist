@@ -62,11 +62,11 @@ By adhering to these criteria, the website will not only attract but also retain
 I did this because...
 
 **Price Comparison:**<br/>
-<figure>
+
+<figure style="margin-top: -20px;">  <!-- Reduce the top margin to pull the figure up -->
   <img src="wppricing.jpg" alt="Price Comparison" width="800" height="500">
   <figcaption>Wordpress Pricing Plans - Highway Robbery</figcaption>
 </figure>
-
 
 As you can see its very pricey...
 
