@@ -63,7 +63,7 @@ I did this because...
 
 **Price Comparison:**<br/>
 
-<figure style="margin-top: -20px; margin-bottom: 10px;">
+<figure style="margin-top: -5px; margin-bottom: 10px;">
   <img src="wppricing.jpg" alt="Price Comparison" width="800" height="500">
   <figcaption>Wordpress Pricing Plans - Highway Robbery</figcaption>
 </figure>
