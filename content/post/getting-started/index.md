@@ -63,7 +63,11 @@ I did this because...
 
 **Price Comparison:**<br/>
 
-<img src='wppricing.jpg' width='500'>
+<figure>
+  <img src="wppricing.jpg" alt="Price Comparison" width="800" height="500">
+  <figcaption>Wordpress Pricing Plans - Highway Robbery</figcaption>
+</figure>
+
 
 As you can see its very pricey...
 
