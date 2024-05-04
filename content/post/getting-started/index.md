@@ -61,6 +61,10 @@ By adhering to these criteria, the website will not only attract but also retain
 
 I did this because...
 
+**Price Comparison:**<br/>
+
+<img scr='./wppricing.png' width='500'>
+
 ### How I created my website (with pictures!)
 
 

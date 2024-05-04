@@ -44,8 +44,8 @@ header:
 footer:
   copyright:
     notice: '© {year} Devraj Bagchi'
+    i_am_a_sponsor: true
     license:
-      i_am_a_sponsor: true
       enable: true
       allow_derivatives: false
       share_alike: true
