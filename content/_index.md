@@ -31,13 +31,13 @@ sections:
 
         As a hobby, I've also developed skills in front-end web development and UI design, learning languages such as Go, HTML, CSS, and Python, which I enjoy applying to create and manage my own academic portfolio.
 
-        **Specialties:** My laboratory specialties encompass advanced synthetic organic chemistry methods, aseptic technique, biohazard handling, and analytical instrumentation. I possess comprehensive skills in sample analysis and data documentation critical for high-standard research.
+        **Specialties:** My laboratory specialties encompass organic chemistry methods such as recrystallization and refluxing, aseptic technique, biohazard handling, and analytical instrumentation. I possess comprehensive skills in sample analysis and data documentation critical for high-standard research.
 
     design:
       columns: '1'
   - block: collection
     content:
-      title: Recent News
+      title: Featured Articles
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
