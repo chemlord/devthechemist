@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 吳健雄
+title: Devraj Bagchi
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Dev-Raj Bag-chi
 
 # Full name (for SEO)
 first_name: Shiung Wu
