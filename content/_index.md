@@ -27,11 +27,11 @@ sections:
       title: 'Hey There!'
       subtitle: 'Welcome to my personal portfolio 👋'
       text: |-
-        I'm Devraj Bagchi (you can call me Dev) and I'm a Biochemistry and Molecular Biology Honours student at Trent University. My academic interests lie deeply in Synthetic Organic Chemistry, specifically Carbonyl chemistry, which I explore both theoretically and through advanced laboratory techniques. My laboratory proficiencies include but are not limited to TLC, FT-IR, ¹H NMR, GC-MS, HPLC, IEC, SEC, and UV-Vis spectroscopy.
+        I'm Devraj Bagchi (you can call me Dev) and I'm a Biochemistry and Molecular Biology Honours student at Trent University. My academic interests lie deeply in Synthetic Organic Chemistry, specifically Carbonyl chemistry, which I explore both theoretically and through advanced laboratory techniques through analytical instrumentation, sample analysis and data documentation critical for high-standard research.
 
         As a hobby, I've also developed skills in front-end web development and UI design, learning languages such as Go, HTML, CSS, and Python, which I enjoy applying to create and manage my own academic portfolio.
 
-        **Specialties:** My laboratory specialties encompass organic chemistry methods such as recrystallization and refluxing, aseptic technique, biohazard handling, analytical instrumentation, sample analysis and data documentation critical for high-standard research.
+        **Specialties:** My Laboratory proficiencies include but are not limited to TLC, FT-IR, ¹H NMR, GC-MS, HPLC, IEC, SEC, and UV-Vis spectroscopy, biohazard handling, aspetic technique.
 
     design:
       columns: '1'
