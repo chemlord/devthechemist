@@ -62,7 +62,6 @@ By adhering to these criteria, the website will not only attract but also retain
 I did this because...
 
 **Price Comparison:**<br/>
-
 <figure>
   <img src="wppricing.jpg" alt="Price Comparison" width="800" height="500">
   <figcaption>Wordpress Pricing Plans - Highway Robbery</figcaption>
