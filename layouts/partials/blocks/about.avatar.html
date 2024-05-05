@@ -23,26 +23,18 @@
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
 <div id="profile">
+
   {{ if $avatar }}
   <div class="avatar-wrapper">
     {{ $avatar_image := $avatar.Fill "150x150 Center" }}
     <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
          width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}">
-    {{with $person.status.icon}}<span class="avatar-emoji">{{.|emojify}}</span>{{end}}
+    {{ with $person.status.icon }}<span class="avatar-emoji">{{ . | emojify }}</span>{{ end }}
   </div>
   {{ end }}
 
   <div class="portrait-title">
-    <h2>
-      {{- if $person.name_pronunciation -}}
-        <ruby>
-          <rb><strong>{{ $person_page.Title }}</strong></rb> <!-- Bold the name -->
-          <rt>{{ $person.name_pronunciation }}</rt>
-        </ruby>
-      {{- else -}}
-        <strong>{{- $person_page.Title -}}</strong> <!-- Bold the name if no pronunciation -->
-      {{- end -}}
-    </h2>
+    <h2><strong>{{ $person_page.Title }}</strong></h2> <!-- Bold the name in the center -->
 
     {{ with $person.role }}<h3><strong>{{ . | markdownify | emojify }}</strong></h3>{{ end }} <!-- Bold the role -->
 
@@ -50,9 +42,9 @@
     <h3>
       {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
       {{ if eq .name "Trent University" }}
-      <span style="color: green;"><strong>{{ .name }}</strong></span> <!-- Highlight and bold the university name -->
+      <mark style="background-color: green; color: white;">{{ .name }}</mark> <!-- Highlight "Trent University" -->
       {{ else }}
-      <strong>{{ .name }}</strong> <!-- Bold other organization names -->
+      <strong>{{ .name }}</strong>
       {{ end }}
       {{ if .url }}</a>{{ end }}
     </h3>
@@ -77,7 +69,7 @@
     {{ end }}
     <li>
       <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}"
-         {{ with .label }} data-toggle="tooltip" data-placement="top" title="{{.}}"{{ end }}>
+         {{ with .label }} data-toggle="tooltip" data-placement="top" title="{{ . }}"{{ end }}>
         <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
       </a>
     </li>
@@ -91,4 +83,5 @@
     </div>
   </div>
   {{ end }}
+
 </div>
