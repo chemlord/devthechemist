@@ -1,44 +1,99 @@
 ---
 # Front matter (adjust if needed, or keep empty if not using any specific settings)
 ---
-
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="/css/wowchemy.css">
-    <link rel="icon" type="image/png" href="/media/icon.png">
-    <meta name="author" content="Devraj Bagchi">
-    <meta name="description" content="Ph.D. Student in Biochemistry and Molecular Biology specializing in Synthetic Organic Chemistry">
-    <link rel="canonical" href="https://devbagchi.com">
-    <title>Devraj Bagchi | Academic Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alice Wu's Profile</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+    }
+
+    .profile {
+        background: white;
+        width: 70%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .profile img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-right: 20px;
+    }
+
+    .info {
+        width: 80%;
+    }
+
+    .info h1 {
+        margin-top: 0;
+    }
+
+    .title {
+        color: #555;
+        font-size: 20px;
+    }
+
+    .interests ul, .education ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .social-links a {
+        margin-right: 10px;
+    }
+</style>
 </head>
 <body>
-    <header>
-        <img src="/media/avatar.jpg" alt="Devraj Bagchi Profile Picture" class="profile-pic">
-        <h1>Devraj Bagchi</h1>
-        <p>Ph.D. Student in Biochemistry and Molecular Biology at Trent University</p>
-        <p>Specializing in Synthetic Organic Chemistry</p>
-        <ul class="social-links">
-            <li><a href="https://www.linkedin.com/in/devrajbagchi" class="ai ai-linkedin"></a></li>
-            <li><a href="https://www.researchgate.net/profile/Devraj-Bagchi" class="ai ai-researchgate"></a></li>
-            <li><a href="https://twitter.com/DevrajBagchi" class="ai ai-twitter"></a></li>
-            <li><a href="https://github.com/DevrajBagchi" class="ai ai-github"></a></li>
-            <li><a href="https://devbagchi.com" class="ai ai-globe"></a></li>
-        </ul>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>I am a dedicated researcher with expertise in synthetic organic chemistry, focusing primarily on the mechanisms and applications of carbonyl chemistry. My academic journey at Trent University has equipped me with profound practical skills in techniques such as TLC, FT-IR, ¹H NMR, and GC-MS, which are crucial in my field.</p>
-        <p>In addition to my academic pursuits, I am passionate about front-end web development and UI design, where I continually seek to integrate my scientific training with technology to enhance data visualization in research.</p>
-    </section>
-    <footer>
-        <p>Contact me at: <a href="mailto:dev.bagchi@trentu.ca">dev.bagchi@trentu.ca</a></p>
-    </footer>
+    <div class="container">
+        <div class="profile">
+            <img src="alice-wu.jpg" alt="Alice Wu">
+            <div class="info">
+                <h1>Alice Wu 吳愛莉</h1>
+                <p class="title">Professor of Artificial Intelligence<br>Stanford University</p>
+                <p>Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing, and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
+                <div class="interests">
+                    <h2>Interests</h2>
+                    <ul>
+                        <li>Artificial Intelligence</li>
+                        <li>Computational Linguistics</li>
+                        <li>Information Retrieval</li>
+                    </ul>
+                </div>
+                <div class="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>PhD in Artificial Intelligence, 2012 - Stanford University</li>
+                        <li>MEng in Artificial Intelligence, 2009 - Massachusetts Institute of Technology</li>
+                        <li>BSc in Artificial Intelligence, 2008 - Massachusetts Institute of Technology</li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:alice.wu@example.com"><img src="email-icon.png" alt="Email"></a>
+                    <a href="https://twitter.com/alice_wu"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="https://github.com/alice_wu"><img src="github-icon.png" alt="GitHub"></a>
+                    <a href="https://researchgate.net/profile/Alice_Wu"><img src="researchgate-icon.png" alt="ResearchGate"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
