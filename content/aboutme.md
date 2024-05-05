@@ -2,22 +2,27 @@
 # Front matter (adjust if needed, or keep empty if not using any specific settings)
 ---
 
-<!DOCTYPE html>
 <html lang="en-us">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Devraj Bagchi | Academic CV</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css">
-    <link rel="stylesheet" href="/css/custom.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/css/wowchemy.css">
+    <link rel="icon" type="image/png" href="/media/icon.png">
+    <meta name="author" content="Devraj Bagchi">
+    <meta name="description" content="Ph.D. Student in Biochemistry and Molecular Biology specializing in Synthetic Organic Chemistry">
+    <link rel="canonical" href="https://devbagchi.com">
+    <title>Devraj Bagchi | Academic Portfolio</title>
 </head>
 <body>
     <header>
         <img src="/media/avatar.jpg" alt="Devraj Bagchi Profile Picture" class="profile-pic">
         <h1>Devraj Bagchi</h1>
         <p>Ph.D. Student in Biochemistry and Molecular Biology at Trent University</p>
-        <p>Specializing in Synthetic Organic Chemistry and Carbonyl Chemistry</p>
+        <p>Specializing in Synthetic Organic Chemistry</p>
         <ul class="social-links">
             <li><a href="https://www.linkedin.com/in/devrajbagchi" class="ai ai-linkedin"></a></li>
             <li><a href="https://www.researchgate.net/profile/Devraj-Bagchi" class="ai ai-researchgate"></a></li>
