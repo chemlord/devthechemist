@@ -1,6 +1,6 @@
 ---
 title: My page
-type: view
+type: landing
 
 sections:
   - block: collection
