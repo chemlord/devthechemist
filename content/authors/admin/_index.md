@@ -41,4 +41,16 @@ social:
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+interests:
+  - Artificial Intelligence
+  - Computational Linguistics
+education:
+  courses:
+    - course: PhD in Artificial Intelligence
+      institution: Stanford University
+      year: 2012
+    - course: MEng in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2009
 ---
+Devraj Bagchi is a passionate researcher and student at Trent University, focusing on Biochemistry and Molecular Biology with an emphasis on Synthetic Organic Chemistry.
