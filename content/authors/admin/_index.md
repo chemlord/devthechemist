@@ -16,6 +16,25 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Biochemistry and Molecular Biology Honours student at Trent University. Focused on Synthetic Organic Chemistry, especially Carbonyl chemistry. Skilled in TLC, FT-IR, ¹H NMR, GC-MS, HPLC, among others. Also enjoys front-end development and UI design as a hobby. Passionate about bridging the gap between theoretical chemistry and practical applications.
 
+# Interests
+interests:
+- Artificial Intelligence
+- Computational Linguistics
+- Information Retrieval
+
+# Education
+education:
+  courses:
+    - course: PhD in Artificial Intelligence
+      institution: Stanford University
+      year: 2012
+    - course: MEng in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2009
+    - course: BSc in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2008
+
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -41,16 +60,4 @@ social:
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
-interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
 ---
-Devraj Bagchi is a passionate researcher and student at Trent University, focusing on Biochemistry and Molecular Biology with an emphasis on Synthetic Organic Chemistry.
