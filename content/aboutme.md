@@ -9,17 +9,19 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      # Interests to show in About widget
-      interests:
-        - Synthetic Organic Chemistry
-        - Molecular Biology
-        - Histology
-      # Education to show in About widget
-      education:
-        courses:
-          - course: BSc in Biochemistry and Molecular Biology
-          institution: Trent University
-          year: 2026
+      ---
+widget: about
+headless: true  # This file represents a page section.
+
+# Put Your Section Options Here (title, background etc.)
+title: Biography
+weight: 10 # Position of section on page
+
+# Choose the user profile to display
+# This should be the username (folder name) of a profile in your `content/authors/` folder.
+author: 'admin'
 ---
-Devraj Bagchi is Biochemistry and Molecular Biology student at Trent University. He was born July 5th, 2001 in Torrance, California where he resides in Peterbourough, ON.
-{style="text-align: justify;"}
+
+The subheadings, such as Interests and Education, will automatically translate depending on the language chosen in `config.yaml`. To customize the subheading text, see the Language page in the docs.
+
+    
