@@ -1,4 +1,8 @@
 ---
+# YAML front matter (add configurations here if necessary, otherwise leave empty)
+
+---
+
 <div style="font-family: Radio_Canada_Big, sans-serif; width: 80%; margin: 0 auto; padding: 20px;">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
         <img src="path_to_your_image.jpg" alt="Alice Wu" style="width: 150px; height: 150px; border-radius: 50%; margin-right: 20px;">
@@ -35,4 +39,3 @@
         </ul>
     </div>
 </div>
----
