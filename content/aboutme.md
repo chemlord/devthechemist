@@ -5,7 +5,7 @@
 
 <div style="font-family: Radio_Canada_Big, sans-serif; width: 80%; margin: 0 auto; padding: 20px;">
     <div style="display: flex; align-items: center; margin-bottom: 20px;">
-        <img src="path_to_your_image.jpg" alt="Alice Wu" style="width: 150px; height: 150px; border-radius: 50%; margin-right: 20px;">
+        <img src="avatar.jpg" alt="Alice Wu" style="width: 150px; height: 150px; border-radius: 50%; margin-right: 20px;">
         <div>
             <h1 style="margin: 0; font-size: 24px;">Alice Wu 吳恩達</h1>
             <h2 style="margin: 5px 0; font-size: 18px; color: #666;">Professor of Artificial Intelligence</h2>
