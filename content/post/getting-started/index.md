@@ -59,7 +59,7 @@ By adhering to these criteria, the website will not only attract but also retain
 
 ## Why I chose Hugo over Wordpress
 
-1. Wordpress is Expensive
+1. Wordpress is **Expensive**
 
 **Price Comparison:**<br/>
 
