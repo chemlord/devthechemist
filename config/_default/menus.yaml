@@ -11,7 +11,7 @@ main:
     url: '/project'
     weight: 30
   - name: Blog
-    url: '/'
+    url: '/blog'
     weight: 40
   - name: Events
     url: '/event'
@@ -20,7 +20,7 @@ main:
     url: '/publication'
     weight: 60
   - name: Courses
-    url: '/'
+    url: '/courses'
     weight: 70
   - name: About Me
     url: '/aboutme'
