@@ -11,38 +11,30 @@ sections:
       username: admin    
       customText: "Here I can write whatever" 
   - block: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many experience `items` below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+  content:
+    title: Experience
+    date_format: Jan 2006
+    items:
+      - title: Soccer Referee
+        company: Whitby FC
+        company_url: 'https://example.com'
+        company_logo: 'org-gc'  # This should match an SVG filename like org-gc.svg in assets/media/icons/brands/
+        location: Whitby, ON
+        date_start: '2023-05-04'
+        date_end: ''  # Leave empty for current positions
+        description: |2-
+            Responsibilities include:
+            * Teamwork and People Skills
+            * Management of High Stress Environments
+            * Filling Game Reports
+        - title: HMR/Deli Clerk
+          company: Loblaw Ltd.
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Peterbourough, ON
+          date_start: '2022-04-28'
+          date_end: '2022-12-23'
+          description: Worked in a Deli in a Real Canadian Superstore
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
