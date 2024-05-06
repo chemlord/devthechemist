@@ -17,7 +17,7 @@ organizations:
 bio: Biochemistry and Molecular Biology Honours student at Trent University. Focused on Synthetic Organic Chemistry, especially Carbonyl chemistry. Skilled in TLC, FT-IR, ¹H NMR, GC-MS, HPLC, among others. Also enjoys front-end development and UI design as a hobby. Passionate about bridging the gap between theoretical chemistry and practical applications.
 
 # Interests
-Courses Taught:
+Interests:
 - Advanced Synthetic Organic Chemistry Biological Applications
 
 # Education
