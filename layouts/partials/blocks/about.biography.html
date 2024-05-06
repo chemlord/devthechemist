@@ -41,13 +41,6 @@
         {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
       </div>
 
-      <!-- Custom biography text -->
-      <div class="biography-text">
-        {{ with $block.content.customText }}
-        <p>{{ . }}</p>
-        {{ end }}
-      </div>
-
       <ul class="network-icon" aria-hidden="true">
         {{ range $person.social }}
         {{ $pack := or .icon_pack "fas" }}
@@ -75,6 +68,14 @@
   </div>
   <div class="col-12 col-lg-8">
     {{ with $block.content.title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+    
+    <!-- Custom biography text right under the biography header -->
+    <div class="biography-text">
+      {{ with $block.content.customText }}
+      <p>{{ . }}</p>
+      {{ end }}
+    </div>
+
     {{ with $person_page.Content }}
     <div class="article-style">
       {{ . }}
