@@ -11,13 +11,13 @@
   {{ $author = .author }}
 {{ else }}
   {{ $author = $block.content.username }}
-{{ end }}
+{{end}}
 
 {{ $person_page_path := (printf "/authors/%s" $author) }}
 {{ $person_page := site.GetPage $person_page_path }}
 {{ if not $person_page }}
   {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://docs.hugoblox.com/page-builder/#about " $person_page_path }}
-{{ end }}
+{{end}}
 {{ $person := $person_page.Params }}
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
@@ -26,6 +26,7 @@
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
+
       {{ if site.Params.features.avatar.gravatar }}
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
       {{ else if $avatar }}
@@ -34,9 +35,22 @@
            width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}"
            src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
       {{ end }}
+
       <div class="portrait-title">
-        <h2>{{ $person_page.Title }}</h2>
+
+        <h2>
+          {{- if $person.name_pronunciation -}}
+            <ruby>
+              <rb>{{ $person_page.Title }}</rb>
+              <rt>{{ $person.name_pronunciation }}</rt>
+            </ruby>
+          {{- else -}}
+            {{- $person_page.Title -}}
+          {{- end -}}
+        </h2>
+
         {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+
         {{ range $person.organizations }}
         <h3>
           {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
@@ -45,6 +59,7 @@
         </h3>
         {{ end }}
       </div>
+
       <ul class="network-icon" aria-hidden="true">
         {{ range $person.social }}
         {{ $pack := or .icon_pack "fas" }}
@@ -67,21 +82,22 @@
         </li>
         {{ end }}
       </ul>
+
     </div>
   </div>
   <div class="col-12 col-lg-8">
+
+    {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ with $block.content.title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
-    {{ with $block.content.customText }}
-    <div class="article-style">
-      {{ . | markdownify }}
-    </div>
-    {{ end }}
+
     {{ with $person_page.Content }}
     <div class="article-style">
       {{ . }}
     </div>
     {{ end }}
+
     <div class="row">
+
       {{ with $person.interests }}
       <div class="col-md-5">
         <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
@@ -95,6 +111,7 @@
         </ul>
       </div>
       {{ end }}
+
       {{ with $person.education }}
       <div class="col-md-7">
         <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
@@ -111,6 +128,7 @@
         </ul>
       </div>
       {{ end }}
+
     </div>
   </div>
 </div>
