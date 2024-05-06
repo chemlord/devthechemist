@@ -10,8 +10,8 @@ main:
   - name: Research
     url: '/project'
     weight: 30
-  - name: Blog
-    url: '/blog'
+  - name: Posts
+    url: '/post'
     weight: 40
   - name: Events
     url: '/event'
@@ -22,7 +22,7 @@ main:
   - name: Courses
     url: '/courses'
     weight: 70
-  - name: About Me
+  - name: CV
     url: '/aboutme'
     weight: 80
   - name: Contact
