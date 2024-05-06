@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Trent Hemoglobal Society
+title: Trent Hemeglobal
 
 # Full name (for SEO)
 first_name: Trent Hemoglobal
@@ -8,7 +8,7 @@ last_name: Trent Hemoglobal
 
 # Username (this should match the folder name)
 authors:
-  - Trent Hemoglobal
+  - trenth
 
 # Is this the primary user of the site?
 superuser: false
