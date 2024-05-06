@@ -23,9 +23,9 @@
         <div class="col {{if gt $idx 0}}border-right{{end}}">&nbsp;</div>
         <div class="col">&nbsp;</div>
       </div>
-      <div class="m-2">
+      <h5 class="m-2">
         <span class="badge badge-pill border {{if not .date_end}}exp-fill{{end}}">&nbsp;</span>
-      </div>
+      </h5>
       <div class="row h-50">
         <div class="col {{if lt $idx (sub $exp_len 1)}}border-right{{end}}">&nbsp;</div>
         <div class="col">&nbsp;</div>
@@ -35,10 +35,9 @@
     <div class="col py-2">
       <div class="card">
         <div class="card-body">
-
           {{- if .company_logo}}
           {{- $svg_icon := resources.Get (printf "media/icons/brands/%s.svg" .company_logo) -}}
-          {{ if not $svg_icon }}{{ errorf "Brand logo not found at `assets/media/icons/brands/%s.svg`" .company_logo }}{{end}}
+          {{ if $svg_icon }}
           <div class="d-flex align-content-start">
             <div class="mr-2 mb-2">
               {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end -}}
@@ -46,6 +45,7 @@
               {{- with .company_url}}</a>{{end -}}
             </div>
             <div>
+          {{ end }}
           {{ end }}
 
               <div class="section-subheading card-title exp-title text-muted my-0">{{.title | markdownify | emojify}}</div>
@@ -65,10 +65,10 @@
                 {{end}}
               </div>
 
-          {{- if .company_logo}}
+          {{- if .company_logo && $svg_icon }}
             </div>
           </div>
-          {{end}}
+          {{ end }}
 
           {{with .description}}<div class="card-text">{{. | markdownify | emojify}}</div>{{end}}
         </div>
