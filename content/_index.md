@@ -27,7 +27,7 @@ sections:
       title: 'Hey There!'
       subtitle: 'Welcome to my personal portfolio 👋'
       text: |-
-        I'm Devraj Bagchi (you can call me Dev) and I'm a Biochemistry and Molecular Biology Honours student at Trent University. My academic interests lie deeply in Synthetic Organic Chemistry, specifically Carbonyl chemistry, which I explore both theoretically and through sample analysis via analytical instrumentation and data documentation critical for high-standard research.
+        I'm Devraj Bagchi and I'm a Biochemistry and Molecular Biology Honours student at Trent University. My academic interests lie deeply in Synthetic Organic Chemistry, specifically Carbonyl chemistry, which I explore both theoretically and through sample analysis via analytical instrumentation and data documentation critical for high-standard research.
 
         As a hobby, I've also developed skills in front-end web development and UI design, learning languages such as Go, HTML, CSS, and Python, which I enjoy applying to create and manage my own academic portfolio.
 
