@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Non-Profit
+role: Member
 
 # Organizations/Affiliations
 organizations:
@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Organization specializing in Charity and Fundraising Events dedicated towards blood diseases and outreach in afflicted countries
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -56,4 +56,4 @@ user_groups:
   - Clubs
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Organization specializing in Charity and Fundraising Events dedicated towards blood diseases and outreach in afflicted countries
