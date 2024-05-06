@@ -10,34 +10,20 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin    
       customText: "Here I can write whatever" 
-  - block: experience
-  content:
-    title: Experience
-    date_format: Jan 2006
-    items:
-      - title: Soccer Referee
-        company: Whitby FC
-        company_url: 'https://example.com'
-        company_logo: 'org-gc'  # This should match an SVG filename like org-gc.svg in assets/media/icons/brands/
-        location: Whitby, ON
-        date_start: '2023-05-04'
-        date_end: ''  # Leave empty for current positions
-        description: |2-
-            Responsibilities include:
-            * Teamwork and People Skills
-            * Management of High Stress Environments
-            * Filling Game Reports
-        - title: HMR/Deli Clerk
-          company: Loblaw Ltd.
-          company_url: ''
-          company_logo: org-x
-          location: Peterbourough, ON
-          date_start: '2022-04-28'
-          date_end: '2022-12-23'
-          description: Worked in a Deli in a Real Canadian Superstore
+  ---
+title: My page
+type: landing
+sections:
+  - block: resume-experience
+    content:
+      # The user's folder name in `content/authors/`
+      username: admin
     design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: false
+---
 ---
 
 
